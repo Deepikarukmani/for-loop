@@ -62,3 +62,17 @@ for i in name:
         upper+=1
 print("no of upper is", upper )
 print("no of lower is", lower)
+
+
+# For Loop using get the input from user to find count of UPPER case and Lower case: (another method)
+name= input("enter any statement")
+upper=0
+lower=0
+for i in name:
+    if i>='a' and i<='z':
+        upper += 1
+    if i>='a' and i<='z':
+        lower += 1
+else:
+    print("no of caps alphabets present is", upper)
+    print("no of small alphabets present is", lower)
